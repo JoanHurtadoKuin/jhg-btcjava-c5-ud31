@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/evento.js"></script>
+    <title>OnClick</title>
+</head>
+<style>
+ table,td{
+     border: 1px solid;
+ }
+
+</style>
+<body>
+
+        <p onclick="clickParrafo()">Primer párrafo</p>
+
+        <table onclick="clickTabla1()">
+            <tr>
+              <td><p onclick="clickParrafo()">Párrafo</p></td>
+              <td><p onclick="clickParrafo()">Párrafo</p></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table onclick="clickTabla2()">
+            <tr>
+              <td><p onclick="clickParrafo()">Párrafo</p></td>
+              <td><p onclick="clickParrafo()">Párrafo</p></td>
+            </tr>
+        </table>
+</body>
+</html>
